@@ -44,6 +44,8 @@ class Game
     @letters.join
   end
 
+  private
+
   def normalize_letter(letter)
     case letter
     when 'Ё' then 'Е'
